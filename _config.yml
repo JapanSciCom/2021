@@ -51,7 +51,7 @@ navigationLinks:
 # - {permalink: "/#location", text: "Access"}
 - {permalink: "/#sponsors", text: "Sponsors"}
 - {permalink: "/#team", text: "Organizers"}
-- {permalink: "/socials.html", text: "Socials"}
+# - {permalink: "/socials.html", text: "Socials"}
 - {link: "https://japanscicom.github.io/", text: "Latest JSF"}
 # add links when registration form is ready
 bottomNavigationLinks:
