@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Japan SciCom Forum"
 email: ""
 description: "Join us to discuss global science communication & outreach in Japan / 英語による科学広報やアウトリーチを一緒に考えませんか？"
-baseurl: ""https://japanscicom.github.io/test""
+baseurl: "https://japanscicom.github.io/test"
 url: "https://japanscicom.github.io/test"
 permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
