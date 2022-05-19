@@ -1,0 +1,14 @@
+-
+  id: 0
+  name: "Ayumi Koso"
+  team: true
+  affiliation: NIG
+  social:
+    - {name: "twitter", prefix: "https://twitter.com/", username: "iyoumek"}
+-
+  id: 1
+  name: "Euan McKay"
+  team: true
+  affiliation: Kobe University
+  social:
+    - {name: "twitter", prefix: "https://twitter.com/", username: "euanmckay"}

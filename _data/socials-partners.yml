@@ -1,0 +1,4 @@
+-
+  group: " "
+  elements:
+    - {name: "Kobe University", description: "Discover your future", link: "https://www.kobe-u.ac.jp/", imageUrl: "kobe.png", width: "360px", imagewidth: "360"}

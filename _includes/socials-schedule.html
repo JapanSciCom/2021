@@ -1,0 +1,52 @@
+<!-- Begin Socials schedule Section -->
+
+<section id="latest-news" class="latest-news">
+  <div class="content-wrapper">
+    <a name="schedule"></a>
+    
+    <div class="col-lg-10 col-lg-offset-1">
+
+      <h3>{{ site.socialsScheduleBlockTitle }}</h3>
+      
+      <p>{{ site.socialsScheduleBlockExplanation }}</p>
+
+      <div class="row mb-3">
+        <div class="col-md-1 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ site.socialsScheduleNumberTitle }}</p>
+        </div>
+        <div class="col-md-2 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ site.socialsScheduleDateTitle }}</p>
+        </div>
+        <div class="col-md-4 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ site.socialsScheduleTopicTitle }}</p>
+        </div>
+        <div class="col-md-3 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ site.socialsScheduleSpeakersTitle }}</p>
+        </div>
+      </div>
+
+      {% for event in site.data.socials-schedule %}
+      <div class="row mb-3">
+        <div class="col-md-1 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ event.number }}</p>
+        </div>
+        <div class="col-md-2 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ event.date }}</p>
+        </div>
+        <div class="col-md-4 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <p>{{ event.topic }}</p>
+        </div>
+        <div class="col-md-3 text-left animated hiding" data-animation="fadeInDown" data-delay="500">
+          <div class="list-group">
+            {% for speaker in event.speakers %}
+            <p class="list-group-item">{% if speaker.link!="" %}<a href="{{ speaker.link }}">{% endif %}{{ speaker.name }}{% if speaker.link!="" %}</a>{% endif %}: {{ speaker.title }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %} 
+    
+  </div>
+</section>
+
+<!-- End Latest News Section -->

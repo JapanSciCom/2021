@@ -1,0 +1,19 @@
+<!-- Begin Team List-->
+<section id="team" class="team">
+ <a name="team"></a>
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.socialsTeamBlockTitle }}</h3>
+                {% for teamMember in site.data.socials-team %}
+                <h5 class="name">{{ teamMember.name }}, {{ teamMember.affiliation }}
+                    {% for social in teamMember.social %}
+                        &middot; <a href="{{ social["prefix"] }}{{ social["username"] }}" target="_blank"><svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                        </svg> @{{ social["username"] }}</a>
+                    {% endfor %}
+                </h5>
+                {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Team List -->

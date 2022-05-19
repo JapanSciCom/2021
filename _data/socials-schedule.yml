@@ -1,0 +1,48 @@
+- 
+  id: 0
+  number: "1"
+  date: "2022-05-19"
+  topic: "Hybrid and online events"
+  speakers:
+  - {name: "Heather Doran", link: "https://www.dundee.ac.uk/people/heather-doran", title: "Moving to hybrid, lessons from the early days of live streaming."}
+  - {name: "Raymond Kunikane Terhune", link: "", title: "Online, hybrid, and in person: Presentations in the time of covid. The chaos still remains."}
+- 
+  id: 1
+  number: "2"
+  date: "2022-07-21"
+  topic: "Growing your social media following"
+  speakers:
+  - {name: "TBD", link: "", title: ""}
+  - {name: "TBD", link: "", title: ""}
+- 
+  id: 2
+  number: "3"
+  date: "2022-09-15"
+  topic: "TBD"
+  speakers:
+  - {name: "TBD", link: "", title: ""}
+  - {name: "TBD", link: "", title: ""}
+- 
+  id: 3
+  number: "4"
+  date: "2022-11-17"
+  topic: "TBD"
+  speakers:
+  - {name: "TBD", link: "", title: ""}
+  - {name: "TBD", link: "", title: ""}
+- 
+  id: 4
+  number: "5"
+  date: "2023-01-19"
+  topic: "TBD"
+  speakers:
+  - {name: "TBD", link: "", title: ""}
+  - {name: "TBD", link: "", title: ""}
+- 
+  id: 5
+  number: "6"
+  date: "2023-03-16"
+  topic: "TBD"
+  speakers:
+  - {name: "TBD", link: "", title: ""}
+  - {name: "TBD", link: "", title: ""}
